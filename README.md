@@ -25,3 +25,17 @@ The implementation of ICCV 2023 [Visible-Infrared Person Re-Identification via S
    ```bash
    chmod 755 test.sh
    ./test
+
+# Training
+
+1. Download the training data SYSU, unzip and put it in correct position.
+2. Change the dataset path in the file `configs/default/dataset.py`
+3. Run the following command to retrain the model. You need about 22G GPU for the training.
+
+``` bash
+chmod 755 train.sh
+./train
+```
+
+
+
