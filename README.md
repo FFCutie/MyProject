@@ -34,7 +34,7 @@ The implementation of ICCV 2023 [Visible-Infrared Person Re-Identification via S
 
 ``` bash
 chmod 755 train.sh
-./train
+./train 
 ```
 
 
